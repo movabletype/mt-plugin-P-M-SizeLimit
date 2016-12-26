@@ -2,6 +2,8 @@
 
 This plugin applies Plack::Middleware::SizeLimit.
 
+See below for available options: http://search.cpan.org/~audreyt/Plack-Middleware-SizeLimit-0.09/lib/Plack/Middleware/SizeLimit.pm
+
 # Requirement
 
 * Movable Type 6.3 or higher
