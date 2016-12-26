@@ -1,4 +1,4 @@
-# mt-plugin-copy-this-entry
+# mt-plugin-P-M-SizeLimit
 
 This plugin applies Plack::Middleware::SizeLimit.
 
