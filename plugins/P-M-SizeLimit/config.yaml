@@ -1,0 +1,16 @@
+name: P-M-SizeLimit
+version: 1.0
+author: Six Apart Ltd.
+description: This plugin applies Plack::Middleware::SizeLimit to the Movable Type.
+
+plack_middlewares:
+  - name: SizeLimit
+    apply_to:
+      - all
+    options:
+      - key: max_unshared_size_in_kb
+        value: 4096
+      - key: check_every_n_requests
+        value: 2
+      - key: log_when_limits_exceeded
+        value: 1
