@@ -8,6 +8,7 @@ See below for available options: http://search.cpan.org/~audreyt/Plack-Middlewar
 
 * Movable Type 6.3 or higher
 * BSD::Resource
+* Plack::Middleware::SetLocalEnv
 
 # Installation
 

@@ -4,6 +4,12 @@ author: Six Apart Ltd.
 description: This plugin applies Plack::Middleware::SizeLimit to the Movable Type.
 
 plack_middlewares:
+  - name: SetLocalEnv
+    apply_to:
+      - all
+    options:
+      - key: psgix.harakiri
+        value: 1
   - name: SizeLimit
     apply_to:
       - all
